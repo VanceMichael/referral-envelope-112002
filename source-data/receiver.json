@@ -1,0 +1,38 @@
+[
+  {
+    "record": "receiver-1",
+    "availableFrom": 2,
+    "kind": "received",
+    "payload": {
+      "sourceReceipt": "RR1",
+      "grant": "GR1",
+      "item": "M7",
+      "point": "站东",
+      "time": "10:24"
+    }
+  },
+  {
+    "record": "receiver-2",
+    "availableFrom": 3,
+    "kind": "received",
+    "payload": {
+      "sourceReceipt": "RR1",
+      "grant": "GR1",
+      "item": "M7",
+      "point": "站东",
+      "time": "10:24"
+    }
+  },
+  {
+    "record": "receiver-3",
+    "availableFrom": 4,
+    "kind": "stopped",
+    "payload": {
+      "sourceReceipt": "RR6",
+      "grant": "GR1",
+      "item": "M7",
+      "point": "站东",
+      "time": "10:40"
+    }
+  }
+]

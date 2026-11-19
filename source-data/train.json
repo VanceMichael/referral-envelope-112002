@@ -1,0 +1,48 @@
+[
+  {
+    "record": "train-1",
+    "availableFrom": 1,
+    "kind": "case",
+    "payload": {
+      "consult": "KX32",
+      "alias": "合成来访甲",
+      "items": [
+        {
+          "id": "N6",
+          "scope": "通知"
+        },
+        {
+          "id": "M7",
+          "scope": "材料"
+        }
+      ]
+    }
+  },
+  {
+    "record": "train-2",
+    "availableFrom": 1,
+    "kind": "case",
+    "payload": {
+      "consult": "KX33",
+      "alias": "合成来访甲",
+      "items": [
+        {
+          "id": "M8",
+          "scope": "材料"
+        }
+      ]
+    }
+  },
+  {
+    "record": "train-3",
+    "availableFrom": 3,
+    "kind": "translation",
+    "payload": {
+      "consult": "KX32",
+      "id": "Y9",
+      "original": "M7",
+      "language": "本地方言",
+      "time": "10:10"
+    }
+  }
+]

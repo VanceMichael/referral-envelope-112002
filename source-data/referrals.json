@@ -1,0 +1,97 @@
+[
+  {
+    "record": "referrals-1",
+    "availableFrom": 1,
+    "kind": "appointment",
+    "payload": {
+      "consult": "KX32",
+      "appointment": "AP1",
+      "point": "站东",
+      "purpose": "调解",
+      "window": [
+        "10:30",
+        "11:00"
+      ]
+    }
+  },
+  {
+    "record": "referrals-2",
+    "availableFrom": 1,
+    "kind": "grant",
+    "payload": {
+      "consult": "KX32",
+      "grant": "GR1",
+      "point": "站东",
+      "purpose": "调解",
+      "items": [
+        "M7",
+        "Y9"
+      ],
+      "valid": [
+        "09:10",
+        "11:00"
+      ]
+    }
+  },
+  {
+    "record": "referrals-3",
+    "availableFrom": 1,
+    "kind": "grant",
+    "payload": {
+      "consult": "KX32",
+      "grant": "GR2",
+      "point": "站东",
+      "purpose": "通知",
+      "items": [
+        "N6"
+      ],
+      "valid": [
+        "09:10",
+        "11:00"
+      ]
+    }
+  },
+  {
+    "record": "referrals-4",
+    "availableFrom": 3,
+    "kind": "appointment",
+    "payload": {
+      "consult": "KX32",
+      "appointment": "AP1",
+      "point": "县北",
+      "purpose": "调解",
+      "window": [
+        "10:45",
+        "11:30"
+      ]
+    }
+  },
+  {
+    "record": "referrals-5",
+    "availableFrom": 3,
+    "kind": "restrict",
+    "payload": {
+      "grant": "GR1",
+      "items": [],
+      "time": "10:28"
+    }
+  },
+  {
+    "record": "referrals-6",
+    "availableFrom": 4,
+    "kind": "grant",
+    "payload": {
+      "consult": "KX32",
+      "grant": "GR3",
+      "point": "县北",
+      "purpose": "调解",
+      "items": [
+        "M7"
+      ],
+      "valid": [
+        "10:30",
+        "11:30"
+      ]
+    }
+  }
+]

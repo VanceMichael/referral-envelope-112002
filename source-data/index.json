@@ -1,0 +1,11 @@
+{
+  "sources": [
+    "train",
+    "referrals",
+    "receiver"
+  ],
+  "stages": 4,
+  "originals": [],
+  "originalStages": {},
+  "digests": {}
+}
