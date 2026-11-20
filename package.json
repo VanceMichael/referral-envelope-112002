@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node source-server.mjs",
-    "test": "node --test *.test.mjs"
+    "start:office": "node src/office-server.mjs",
+    "test": "node --test"
   }
 }
